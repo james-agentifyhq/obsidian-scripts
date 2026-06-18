@@ -37,6 +37,11 @@ coverage/
 .env.*
 !.env.example
 
+# Machine-local config (per-script). Commit config.example.json instead.
+config.json
+**/config.json
+!config.example.json
+
 # Linter caches
 .eslintcache
 
